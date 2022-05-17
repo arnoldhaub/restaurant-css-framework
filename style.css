@@ -1,0 +1,15 @@
+#head {
+    background-image: url("img/header.jpg");
+   
+}
+
+body {
+    text-align: center;
+    background-image: url('img/bg.png');
+    
+}
+
+/* #menu {
+    background: url("img/crabe2.jpg") no-repeat black;
+    background-position:center left;
+} */
