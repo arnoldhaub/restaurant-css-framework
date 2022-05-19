@@ -13,3 +13,10 @@ body {
     background: url("img/crabe2.jpg") no-repeat black;
     background-position:center left;
 } */
+
+#carouselHero .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+  }
