@@ -26,3 +26,11 @@ body {
   display: flex;
   align-items: center;
 }
+
+#carousel .carousel-item img {  
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height:600px;
+  }
+  
