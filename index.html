@@ -8,31 +8,31 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container">
+  <div class="site bg-white">
         <!-- MENU - début -->
-        <div class="row sticky-top">
-            <nav class="navbar navbar-expand-lg bg-light  ">
-                <div class="container-fluid ">
-                  <a class="navbar-brand" href="index.html">Navigation</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div id="menu" class="row sticky-top bg-dark justify-content-around">
+            <nav class="col-lg-12  navbar navbar-expand-lg px-5 ">
+                <div class="container-fluid">
+                  <a class="navbar-brand tex" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                  <button class="navbar-toggler bg-white" style="--bs-bg-opacity: .2;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#">Accueil</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Notre menu</a>
+                        <a class="nav-link text-secondary" href="menu.html">Notre menu</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="pictures.html">Les coulisses</a>
+                        <a class="nav-link text-secondary" href="pictures.html">Les coulisses</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="restaurants.html">Le restaurant</a>
+                        <a class="nav-link text-secondary" href="restaurants.html">Le restaurant</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contactez-nous!</a>
+                        <a class="nav-link text-secondary" href="contact.html">Contactez-nous!</a>
                       </li>
                     </ul>
                   </div>
@@ -41,61 +41,63 @@
         </div>
         <!-- MENU - fin -->
         <!--  Un Jumbotron comme entrée ? - BIENVENUE -->
-        <div id="head">
-        <div class="jumbotron  mt-5 p-5">
-            <h1 class="display-4 ">Le Crabe Croustillant, vous ouvre ses portes!</h1>
-            <p class="lead">Découvrez l'univers culinaire qui se cache sous la mer à travers la spatule de notre cuisinier et artiste Patrick, chef étoilé, 4ème dan, ceinture multicolore en art culinaire.</p>
-            <hr class="my-4 ">
-            <p>Laissez-vous tenter par nos menus aux saveurs nouvelles, fraiches, uniques et intemporelles.</p>
-            <p class="lead">
-              <a class="btn btn-primary btn-lg" href="#" role="button">Découvrir notre menu croustillant</a>
-            </p>
-        </div></div>
-        <!-- Nos évènements !!!  -->
-        <div class="jumbotron jumbotron-fluid text-center mt-5">
+        <div id="head" class="row justify-content-around text-center " >
+          <div class="jumbotron col-lg-6 my-5 p-5 bg-light rounded-4" style="--bs-bg-opacity: .7;">
+              <h1 class="display-4 ">Le Crabe Croustillant, vous ouvre ses portes!</h1>
+              <p class="lead mt-5">Découvrez l'univers culinaire qui se cache sous la mer à travers la spatule de notre cuisinier et artiste Patrick, chef étoilé, 4ème dan, ceinture multicolore en art culinaire.</p>
+              <hr class="my-4 ">
+              <p>Laissez-vous tenter par nos menus aux saveurs nouvelles, fraiches, uniques et intemporelles.</p>
+              <p class="lead" >
+                <a class="btn btn-warning text-white btn-lg"  href="menu.html" role="button">Découvrir notre menu croustillant</a>
+              </p>
+          </div>
+        </div>
+        <!-- EVENEMENT - début  -->
+        <div class="jumbotron jumbotron-fluid text-center my-5">
             <div class="container">
-              <h1 class="display-4">Nos évènements spéciaux</h1>
-              <p class="lead">Vous aussi vous aimez casser la routine ? <br>Rejoingnez-nous durant nos évènements spéciaux, vous découvrirez une nouvelle carte, un décor repensé ainsi qu'une ambiance à donner envie de revenir.</p>
+              <h1 class="display-4 p-1 border-bottom  rounded-4" >Nos évènements spéciaux</h1>
+              <p class="lead p-3 mt-3">Vous aussi vous aimez casser la routine ? <br>Rejoingnez-nous durant nos évènements spéciaux, vous découvrirez une nouvelle carte, un décor repensé ainsi qu'une ambiance à donner envie de revenir.</p>
             </div>
         </div>
 
         <div class="row justify-content-around ">
 
-            <div class="card col-md-5">
+            <div class="card col-md-5 p-0">
                 <img src="img/champetre.jpg" class="card-img-top" alt="Diner champêtre / image">
                 <div class="card-body">
                 <h5 class="card-title">Diner champêtre</h5>
                 <p class="card-text">Rédécouvrez avec nous les plaisirs simples du diner champêtre remis au goût du jour par notre chef étoilé, Patrick.</p>
-                <a href="#" class="btn btn-primary">Réserver</a>
+                <a href="#" class="btn btn-warning text-white d-flex justify-content-center">Réserver</a>
                 </div>
             </div>
 
-            <div class="card col-md-5">
+            <div class="card col-md-5 p-0">
                 <img src="img/sauvage.jpg" class="card-img-top" alt="À l'état sauvage / image">
                 <div class="card-body">
                 <h5 class="card-title">À l'état sauvage</h5>
                 <p class="card-text">Éveiller le chasseur-cueilleur qui sommeille en vous. Notre chef Patrick revisite l'art culinire en aliant le côté sauvage, brûte avec une touche raffinée et équilibrée offrant des mêts de qualités, de caractères et explosifs. </p>
-                <a href="#" class="btn btn-primary">Réserver</a>
+                <a href="#" class="btn btn-warning text-white d-flex justify-content-center ">Réserver</a>
                 </div>
             </div>
         </div>
+        <!-- EVENEMENT - fin  -->
 
-        <!-- Place aux recettes !!!  -->
-        <div class="jumbotron jumbotron-fluid mt-5">
+        <!-- RECETTES - début  -->
+        <div class="jumbotron jumbotron-fluid my-5">
             <div class="container text-center">
-              <h1 class="display-4">Envie de surpasser notre chef ?</h1>
-              <p class="lead">Nous vous avons entendus. Comment rester insensible à votre envie d'emmener chez vous notre art culinaire ? Notre chef, Patrick, s'est demené pour vous offrir, en de simples recettes, facilement concoctables, légères et raffinées, ses oeuvres d'art.</p><p class="lead">À votre tour de mettre la main à la pâte !</p>
+              <h1 class="display-4 p-1 border-bottom rounded-4">Envie de surpasser notre chef ?</h1>
+              <p class="lead p-3 mt-3">Nous vous avons entendus. Comment rester insensible à votre envie d'emmener chez vous notre art culinaire ? Notre chef, Patrick, s'est demené pour vous offrir, en de simples recettes, facilement concoctables, légères et raffinées, ses oeuvres d'art.</p><p class="lead">À votre tour de mettre la main à la pâte !</p>
             </div>
         </div>
-
+        <!-- RECETTES - Première  -->
         <div class="row justify-content-around">
-            <div class="card mb-3 col-md-10">
-                <div class="row g-0">
+            <div class="card mb-3 col-md-10 border-white">
+                <div class="row g-0 vertical-center">
                     <div class="col-md-4">
-                        <img src="img/leradin.jpg" class="img-fluid rounded-start" alt="Burger - Le radin / image">
+                        <img src="img/leradin.jpg" class="img-fluid border border-3 rounded-4" alt="Burger - Le radin / image">
                     </div>
                     <div class="col-md-8">
-                        <div class="card-body">
+                        <div class="card-body p-5">
                             <h5 class="card-title">Le Radin - le burger qu'on ne partage pas.</h5>
                             <p class="card-text">Notre burger, aux saveurs de la mer, un régale si incroyable qu'il fera de vous un radin, incapable de partager un bout. Une telle recette ne se partage normalement pas, mais pour vous, nous sommes prêts à tout !</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -103,13 +105,16 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-3 col-md-10 justify-content-center">
-                <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="img/leCroustillant.jpg" class="img-fluid rounded-start" alt="Croustillon - Le croustillant / image">
+
+            <!-- RECETTES - deuxième  -->
+
+            <div class="card mb-3 col-md-10  border-white">
+                <div class="row g-0 vertical-center">
+                <div class="col-md-4 order-md-2">
+                    <img src="img/leCroustillant.jpg" class="img-fluid border border-3 rounded-4" alt="Croustillon - Le croustillant / image">
                 </div>
                 <div class="col-md-8">
-                    <div class="card-body">
+                    <div class="card-body p-5">
                     <h5 class="card-title">Le Croustillant - les papilles en redemandent.</h5>
                     <p class="card-text">Laissez-vous tenter par cette recette novatrice. Elle vous menera en des lieux culinaires entièrement inconnus. Qui aurait-cru qu'un croustillon puisse ramener l'homme à la vie, les papilles à ne plus désirer de s'arrêter de manger ?</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -117,13 +122,16 @@
                 </div>
                 </div>
             </div>
-            <div class="card mb-3 col-md-10">
-                <div class="row g-0">
+
+            <!-- RECETTES - Troisième  -->
+
+            <div class="card mb-3 col-md-10 border-white">
+                <div class="row g-0 vertical-center">
                 <div class="col-md-4">
-                    <img src="img/laTruite.jpg" class="img-fluid rounded-start" alt="La Truite / image">
+                    <img src="img/laTruite.jpg" class="img-fluid border border-3 rounded-4" alt="La Truite / image">
                 </div>
                 <div class="col-md-8">
-                    <div class="card-body">
+                    <div class="card-body p-5">
                     <h5 class="card-title">La Truite - le poisson qui vous donne envie de plonger.</h5>
                     <p class="card-text">Une recette qui revisite entièrement la truite. Une chose est sûre, vous aurez envie de vous mettre à la pêche, vous nourrir exclusivement de poisson et ce, dès la première bouchée.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
@@ -132,8 +140,9 @@
                 </div>
             </div>
         </div>
+        <!-- RECETTES - fin  -->
+
     </div>
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>

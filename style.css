@@ -1,16 +1,28 @@
 #head {
-    background-image: url("img/header.jpg");
+    background-image: url("img/header5.jpeg");
+    background-position: bottom;
+    min-height: 600px;
    
 }
 
 body {
     text-align: center;
-    background-image: url('img/bg.png');
     
 }
+/* 
+#menu {
+    background-image: url("img/bgg.jpg");
+    background-position:center;
+    
+}  */
 
-/* #menu {
-    background: url("img/crabe2.jpg") no-repeat black;
-    background-position:center left;
-} */
+#menu img {
+    height: 50px;
+}
 
+.vertical-center {
+
+
+  display: flex;
+  align-items: center;
+}
