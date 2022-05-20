@@ -7,8 +7,10 @@
 
 body {
     text-align: center;
+    background-image: url("img/bg.jpg");
     
 }
+
 /* 
 #menu {
     background-image: url("img/bgg.jpg");
@@ -21,8 +23,6 @@ body {
 }
 
 .vertical-center {
-
-
   display: flex;
   align-items: center;
 }
